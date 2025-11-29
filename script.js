@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let progress = 0;
 
     const loadingInterval = setInterval(() => {
-        progress += 3;
+        progress += 5;
         if (progress > 100) progress = 100;
 
         barFill.style.width = progress + '%';
